@@ -14,8 +14,28 @@ def datos_calculo_propina():
     print("Cálculo de Propina")
     print("=============================================")
 
-    total=float(input("Ingrese el monto total de la cuenta: $"))
-    porcentaje=(float(input("Ingrese el porcentaje de propina (por ejemplo: 15):")))
+    
+    while True:
+        total=float(input("Ingrese el monto total de la cuenta: $"))
+
+        if total > 0:
+            break
+        elif total == 0:
+            print("La cuenta no puede ser cero (0). Intentalo neuvamente.")
+        else:
+            print("El total no puede ser negativo (-)")
+
+    while True:        
+        porcentaje=(float(input("Ingrese el porcentaje de propina (por ejemplo: 15):")))
+        if porcentaje>0 and porcentaje<=100:
+            break
+        elif porcentaje == 0:
+            print("El porcentaje no puede ser cero (0).")
+        elif porcentaje <0:
+            print("El porcentje no puede tomar valores negativos (-).")
+        else:
+            print("Valor incorrecto")
+
     propina=calcular_propina(total,porcentaje)
 
     print("=============================================")
@@ -60,8 +80,28 @@ def datos_dividir_personas():
             print("El total no puede ser negativo (-)")
 
 
-    porcentaje=(float(input("Ingrese el porcentaje de propina (por ejemplo: 15):"))) 
-    personas=int(input("Ingrese el número de personas:"))
+    while True:        
+        porcentaje=(float(input("Ingrese el porcentaje de propina (por ejemplo: 15):")))
+        if porcentaje>0 and porcentaje<=100:
+            break
+        elif porcentaje == 0:
+            print("El porcentaje no puede ser cero (0).")
+        elif porcentaje <0:
+            print("El porcentje no puede tomar valores negativos (-).")
+        else:
+            print("Valor incorrecto")
+
+    while True:
+        personas=int(input("Ingrese el número de personas:"))
+        if personas > 0:
+            break
+        elif personas == 0:
+            print("El nuemro de personas no puede ser cero (0).")
+        elif personas <0:
+            print("El numero de personas no puede tomar valores negativos (-).")
+        else:
+            print("Valor incorrecto")
+
 
     print("============================================")
 
