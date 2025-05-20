@@ -36,7 +36,7 @@ def calcular_propina(total, porcentaje):
 
 ### Requisitos
 
-- Python 3.8+
+- Python 3.10+
 
 ### Pasos:
 
