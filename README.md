@@ -1,7 +1,6 @@
 # 🍽️ Simulador de Propina en Python
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![Calificación](https://img.shields.io/badge/Calificación-98%2F100-brightgreen)
 
 ## 📚 Tabla de Contenidos
@@ -100,7 +99,7 @@ Menú interactivo: [Ver diseño del menú](https://gist.github.com/programmersla
 
 **Docente**: Cristian Díaz  
 **Estudiante**: Pamela Galvis  
-Repositorio: [Examen_Python_ApellidoNombre](https://github.com/pamelamichellga01/Examen_Python_GalvisAlvarez)
+Repositorio: [Examen_Python_GalvisAlvarez](https://github.com/pamelamichellga01/Examen_Python_GalvisAlvarez)
 
 ---
 
