@@ -43,8 +43,8 @@ def calcular_propina(total, porcentaje):
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/Examen_Python_ApellidoNombre.git
-cd Examen_Python_ApellidoNombre
+git clone https://github.com/tu-usuario/Examen_Python_GalvisPamela.git
+cd Examen_Python_GalvisPamela
 ```
 
 2. Ejecutar el programa:
