@@ -100,7 +100,7 @@ Menú interactivo: [Ver diseño del menú](https://gist.github.com/programmersla
 
 **Docente**: Cristian Díaz  
 **Estudiante**: Pamela Galvis  
-Repositorio: [Examen_Python_ApellidoNombre](https://github.com/usuario/Examen_Python_ApellidoNombre)
+Repositorio: [Examen_Python_ApellidoNombre](https://github.com/pamelamichellga01/Examen_Python_GalvisAlvarez)
 
 ---
 
